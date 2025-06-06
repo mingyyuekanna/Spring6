@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-properties.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/openai/test/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/openai/test/TestAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/openai/test/TestAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/openai/test/TestAll.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,6 +50,7 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2xj9c2wdyMdKOuiFxUy6cIK0ssl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,6 +71,7 @@
     "JUnit.TestAll.Test2.executor": "Run",
     "JUnit.TestAll.autowire.executor": "Run",
     "JUnit.TestAll.executor": "Run",
+    "JUnit.TestAll.hrefOutSide.executor": "Run",
     "JUnit.TestAll.pInsert (1).executor": "Run",
     "JUnit.TestAll.pInsert.executor": "Run",
     "JUnit.TestAll.p_inj (1).executor": "Run",
@@ -91,29 +103,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SpringFamily\Spring6\src\lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SpringFamily\Spring6\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.fuck.dao" />
       <recent name="com.jdbc" />
       <recent name="com.openai.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll.wireByType">
-    <configuration name="TestAll.Tes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.openai.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.openai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
-      <option name="METHOD_NAME" value="Tes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestAll.hrefOutSide">
     <configuration name="TestAll.autowire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring6" />
       <extension name="coverage">
@@ -125,6 +124,22 @@
       <option name="PACKAGE_NAME" value="com.openai.test" />
       <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
       <option name="METHOD_NAME" value="autowire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.hrefOutSide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="hrefOutSide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAll.hrefOutSide" />
         <item itemvalue="JUnit.TestAll.wireByType" />
         <item itemvalue="JUnit.TestAll.autowire" />
         <item itemvalue="JUnit.TestAll.reuse" />
         <item itemvalue="JUnit.TestAll.p_inj (1)" />
-        <item itemvalue="JUnit.TestAll.Tes" />
       </list>
     </recent_temporary>
   </component>
@@ -212,11 +227,25 @@
       <workItem from="1749039702920" duration="1985000" />
       <workItem from="1749107057632" duration="471000" />
       <workItem from="1749107544510" duration="6136000" />
-      <workItem from="1749201454715" duration="3249000" />
+      <workItem from="1749201454715" duration="3983000" />
+      <workItem from="1749207307398" duration="3133000" />
     </task>
+    <task id="LOCAL-00001" summary="2025-6-6">
+      <option name="closed" value="true" />
+      <created>1749206713552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749206713552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2025-6-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-6-6" />
   </component>
 </project>

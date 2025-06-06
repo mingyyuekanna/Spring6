@@ -4,6 +4,7 @@ import com.fuck.service.CustomerService;
 import com.fuck.service.OrderService;
 import com.jdbc.Datasource1;
 import com.jdbc.Datasource2;
+import com.jdbc.MyDataSource;
 import com.openai.Test.Dog;
 import com.openai.Test.Human;
 import org.junit.Test;
@@ -14,6 +15,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import javax.sql.DataSource;
 
 public class TestAll {
+
+    @Test
+    public void hrefOutSide(){
+        ApplicationContext applicationContext  =new ClassPathXmlApplicationContext("spring-properties.xml");
+        MyDataSource ds = applicationContext.getBean("ds", MyDataSource.class);
+        System.out.println(ds);
+
+    }
+
 
     /*
     * 注意 根据type装载 也是调用的set方法
