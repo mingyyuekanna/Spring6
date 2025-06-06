@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="MathBean" class="com.openai.Test.SpecialMath">
+<!--        方法1 和html的类似 转义符了 -->
+<!--        <property name="result" value="4 &lt; 3"></property>-->
+<!--        方法2 <![CDATA[]]> 但是这就不能往value属性写了 换成标签方可-->
+        <property name="result" >
+            <value> <![CDATA[2>4]]> </value>
+        </property>
+
+    </bean>
+
+    <bean id="catBean" class="com.openai.Test.Cat">
+<!--        <property name="name" value="">不写属性就自动空</property>-->
+<!--        <property name="name">
+            <null/>
+        </property>
+ -->
+<!--        <property name="name" value="">这个是注入空字符串</property>-->
+<!--        <property name="name"> 注入空字符串第二种方法 <value/> </property>-->
+        <property name="age" value="2"></property>
+    </bean>
+
+
+    <bean id="ListAndSetBean" class="com.openai.Test.ListAndSet">
+        <!--                 我们知道 list 是有序的 可重复的
+                             而set是不可重复的
+        -->
+
+        <property name="tel">
+            <map>
+<!--                <entry-ref></entry-ref> 这个用于特殊的 懂的都懂-->
+                <entry key="1" value="110"></entry>
+                <entry key="2" value="119"></entry>
+                <entry key="3" value="120"></entry>
+            </map>
+        </property>
+
+<!--        这个是key value都是字符串 是Hashtable的骸子 Hashtable实现了Map接口-->
+<!--
+        <property name="properties">
+            <props>
+                <prop key="1">xxx1</prop>
+                <prop key="2">xxx2</prop>
+            </props>
+        </property>
+
+-->
+        <property name="names">
+            <list>
+                <value>东雪莲</value>
+                <value>佐久间眠</value>
+                <value>眠姬</value>
+            </list>
+        </property>
+
+        <property name="address">
+            <set>
+                <value>丹棱路微软大厦</value>
+                <value>徐汇区虹漕路</value>
+                <value>闵行区紫星路</value>
+            </set>
+        </property>
+    </bean>
+</beans>

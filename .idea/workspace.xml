@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\Maven\apache-maven-3.9.9" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xj9c2wdyMdKOuiFxUy6cIK0ssl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankApp.executor": "Run",
+    "Application.GradeSystemApp.executor": "Run",
+    "Application.TestAll.executor": "Run",
+    "JUnit.BankApp.executor": "Run",
+    "JUnit.BankApp.test.executor": "Run",
+    "JUnit.GradeSystemApp.testBook.executor": "Run",
+    "JUnit.Main.test.executor": "Run",
+    "JUnit.Test.inject.executor": "Run",
+    "JUnit.TestAll.NullTest.executor": "Run",
+    "JUnit.TestAll.Tes.executor": "Run",
+    "JUnit.TestAll.Test.executor": "Run",
+    "JUnit.TestAll.Test2.executor": "Run",
+    "JUnit.TestAll.autowire.executor": "Run",
+    "JUnit.TestAll.executor": "Run",
+    "JUnit.TestAll.pInsert (1).executor": "Run",
+    "JUnit.TestAll.pInsert.executor": "Run",
+    "JUnit.TestAll.p_inj (1).executor": "Run",
+    "JUnit.TestAll.p_inj.executor": "Run",
+    "JUnit.TestAll.p_insert.executor": "Run",
+    "JUnit.TestAll.reuse.executor": "Run",
+    "JUnit.TestAll.s.executor": "Run",
+    "JUnit.TestAll.special.executor": "Coverage",
+    "JUnit.TestAll.ss.executor": "Run",
+    "JUnit.TestAll.wireByType.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/SpringFamily/Spring6/src/main/java/com/openai/Test",
+    "last_opened_file_path": "E:/SpringFamily/Spring6/src/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringFamily\Spring6\src\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fuck.dao" />
+      <recent name="com.jdbc" />
+      <recent name="com.openai.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAll.wireByType">
+    <configuration name="TestAll.Tes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="Tes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.autowire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="autowire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.p_inj (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="p_inj" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.reuse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="reuse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.wireByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
+      <option name="METHOD_NAME" value="wireByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAll.wireByType" />
+        <item itemvalue="JUnit.TestAll.autowire" />
+        <item itemvalue="JUnit.TestAll.reuse" />
+        <item itemvalue="JUnit.TestAll.p_inj (1)" />
+        <item itemvalue="JUnit.TestAll.Tes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="" />
+      <created>1748440693764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748440693764</updated>
+      <workItem from="1748440694828" duration="138000" />
+      <workItem from="1748845321889" duration="80000" />
+      <workItem from="1748853413734" duration="7956000" />
+      <workItem from="1748923153335" duration="2887000" />
+      <workItem from="1748945124301" duration="5407000" />
+      <workItem from="1749039702920" duration="1985000" />
+      <workItem from="1749107057632" duration="471000" />
+      <workItem from="1749107544510" duration="6136000" />
+      <workItem from="1749201454715" duration="3249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+    注意: 数组注入的另一种特殊形式 你需要做好几个bean 然后再使用插入 同样是Array 但里面的就不是value了 而是ref
+
+-->
+    <bean id="f1" class="com.openai.Test.ArraySetFriend">
+        <property name="name" value="fuck1"></property>
+    </bean>
+
+    <bean id="f2" class="com.openai.Test.ArraySetFriend">
+        <property name="name" value="fuck2"></property>
+    </bean>
+
+    <bean id="f3" class="com.openai.Test.ArraySetFriend">
+        <property name="name" value="fuck3"></property>
+    </bean>
+    <bean id="hobby" class="com.openai.Test.ArraySet">
+        <property name="hobbies">
+            <array>
+                <value>sing</value>
+                <value>dance</value>
+            </array>
+        </property>
+
+        <property name="friends">
+            <array>
+                <ref bean="f1"></ref>
+                <ref bean="f2"></ref>
+                <ref bean="f3"></ref>
+            </array>
+        </property>
+
+    </bean>
+
+</beans>

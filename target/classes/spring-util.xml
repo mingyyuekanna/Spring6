@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:utils="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        ">
+        <utils:properties id="factoryBean">
+            <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+            <prop key="url">jdbc:mysql://localhost:3306/user_db</prop>
+            <prop key="username">root</prop>
+            <prop key="password">123456</prop>
+        </utils:properties>
+
+    <bean id="data1" class="com.jdbc.Datasource1">
+        <property name="properties" ref="factoryBean"></property>
+    </bean>
+
+    <bean id="data2" class="com.jdbc.Datasource2">
+        <property name="properties" ref="factoryBean"/>
+    </bean>
+
+</beans>
