@@ -10,7 +10,6 @@
         request 一次请求一个bean
         session 一次会话一个bean
     -->
-    <bean id="springBean" class="spring6.four.scope.SpringBean" scope="singleton">
-    </bean>
+<!--    <bean id="method1SpringBean" class="spring6.four.scope.SpringBean" scope="singleton">-->
 
 </beans>

@@ -4,25 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-6/2">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/Go/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/AK47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/Dagger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/TANK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/fuck/simple/factory/WeaponFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring6/four/scope/SpringBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SpringBean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/scope/test/Test.java" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-7">
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Interface_Instantiation4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Interface_Instantiation4/PersonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Method1_SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Method2_Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Method2_StarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Method3/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/Method3/GunFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/Spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/test/java/com/spring6/test/TestAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Factory/AKFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Factory/TankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Factory/WeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Weapon/AK47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Weapon/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_Method/src/main/java/com/fuck/Go/Weapon/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SpringBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SpringBean.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +82,14 @@
     "Application.GradeSystemApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TestAll.executor": "Run",
+    "Application.com.fuck.Go.Main.executor": "Run",
     "JUnit.BankApp.executor": "Run",
     "JUnit.BankApp.test.executor": "Run",
     "JUnit.ExerciseTest.test1.executor": "Run",
     "JUnit.ExerciseTest.test3.executor": "Run",
     "JUnit.GradeSystemApp.testBook.executor": "Run",
     "JUnit.Main.test.executor": "Run",
+    "JUnit.Test.Test.executor": "Run",
     "JUnit.Test.inject.executor": "Run",
     "JUnit.Test.test.executor": "Run",
     "JUnit.TestAll.NullTest.executor": "Run",
@@ -89,8 +97,12 @@
     "JUnit.TestAll.Test.executor": "Run",
     "JUnit.TestAll.Test2.executor": "Run",
     "JUnit.TestAll.autowire.executor": "Run",
+    "JUnit.TestAll.constructionBean.executor": "Run",
     "JUnit.TestAll.executor": "Run",
     "JUnit.TestAll.hrefOutSide.executor": "Run",
+    "JUnit.TestAll.init.executor": "Run",
+    "JUnit.TestAll.method3.executor": "Run",
+    "JUnit.TestAll.method4.executor": "Run",
     "JUnit.TestAll.pInsert (1).executor": "Run",
     "JUnit.TestAll.pInsert.executor": "Run",
     "JUnit.TestAll.p_inj (1).executor": "Run",
@@ -115,7 +127,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,18 +139,20 @@
       <recent name="E:\SpringFamily\Spring6\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fuck.Go.Interface_Instantiation4" />
+      <recent name="com.fuck.Go" />
+      <recent name="com.fuck.Go.Factory" />
+      <recent name="com.fuck.Go.Weapon" />
       <recent name="com.fuck.dao" />
-      <recent name="com.jdbc" />
-      <recent name="com.openai.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fuck.simple.factory.Main" />
-      <module name="simple-factory" />
+  <component name="RunManager" selected="JUnit.TestAll.method4">
+    <configuration name="com.fuck.Go.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Main" />
+      <module name="Factory_Method" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fuck.simple.factory.*" />
+          <option name="PATTERN" value="com.fuck.Go.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,65 +160,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6" />
+    <configuration name="TestAll.constructionBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="PATTERN" value="com.spring6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.openai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.openai.test.ExerciseTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
+      <option name="METHOD_NAME" value="constructionBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6" />
+    <configuration name="TestAll.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="PATTERN" value="com.spring6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.openai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.openai.test.ExerciseTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
+      <option name="METHOD_NAME" value="init" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll.hrefOutSide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6" />
+    <configuration name="TestAll.method3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.openai.test.*" />
+          <option name="PATTERN" value="com.spring6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.openai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.openai.test.TestAll" />
-      <option name="METHOD_NAME" value="hrefOutSide" />
+      <option name="PACKAGE_NAME" value="com.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
+      <option name="METHOD_NAME" value="method3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6" />
+    <configuration name="TestAll.method4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scope.test.*" />
+          <option name="PATTERN" value="com.spring6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.scope.test" />
-      <option name="MAIN_CLASS_NAME" value="com.scope.test.Test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
+      <option name="METHOD_NAME" value="method4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestAll.hrefOutSide" />
-        <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.ExerciseTest.test3" />
-        <item itemvalue="JUnit.ExerciseTest.test1" />
+        <item itemvalue="JUnit.TestAll.method4" />
+        <item itemvalue="JUnit.TestAll.method3" />
+        <item itemvalue="JUnit.TestAll.init" />
+        <item itemvalue="JUnit.TestAll.constructionBean" />
+        <item itemvalue="Application.com.fuck.Go.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +260,9 @@
       <workItem from="1749107544510" duration="6136000" />
       <workItem from="1749201454715" duration="3983000" />
       <workItem from="1749207307398" duration="5093000" />
-      <workItem from="1749254832645" duration="6064000" />
+      <workItem from="1749254832645" duration="6154000" />
+      <workItem from="1749347146942" duration="4705000" />
+      <workItem from="1749370451819" duration="4483000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -264,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749213558414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2025-6-7">
+      <option name="closed" value="true" />
+      <created>1749261886664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749261886664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +298,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2025-6-6" />
     <MESSAGE value="2025-6-6/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-6-6/2" />
+    <MESSAGE value="2025-6-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-6-7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
