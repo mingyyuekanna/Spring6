@@ -1,5 +1,6 @@
 package com.spring6.test;
 
+import com.fuck.Go.DateInsert.Student;
 import com.fuck.Go.Interface_Instantiation4.Person;
 import com.fuck.Go.Method1_SpringBean;
 import com.fuck.Go.Method2_Star;
@@ -11,6 +12,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAll {
+
+    @Test
+    public void DateInsert() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Spring.xml");
+        Student student = applicationContext.getBean("student", Student.class);
+        System.out.println(student);
+    }
 
     /*
         第五个: FactoryBean 和BeanFactory有何区别?

@@ -2,7 +2,19 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-<!--    <bean id="SpringBean" class="com.fuck.Go.Method1_SpringBean"/>-->
+
+    <bean id="studentFactory" class="com.fuck.Go.DateInsert.StudentFactory">
+        <constructor-arg index="0" value="2003-06-09"/>
+    </bean>
+
+    <bean id="student" class="com.fuck.Go.DateInsert.Student">
+        <property name="brith" ref="studentFactory"/>
+    </bean>
+
+
+
+
+    <!--    <bean id="SpringBean" class="com.fuck.Go.Method1_SpringBean"/>-->
 
 <!--    <bean id="Star" class="com.fuck.Go.Method2_StarFactory" factory-method="get"/>-->
 
