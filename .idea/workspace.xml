@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-8-evening">
-      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/DateInsert/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/DateInsert/StudentFactory.java" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-9-evening">
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/BeanLifeCircle/PersonLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/BeanLife.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bean_Instant/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/Spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bean_Instant/src/test/java/com/spring6/test/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/test/java/com/spring6/test/TestAll.java" afterDir="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -83,6 +83,7 @@
     "JUnit.TestAll.executor": "Run",
     "JUnit.TestAll.hrefOutSide.executor": "Run",
     "JUnit.TestAll.init.executor": "Run",
+    "JUnit.TestAll.life.executor": "Run",
     "JUnit.TestAll.method3.executor": "Run",
     "JUnit.TestAll.method4.executor": "Run",
     "JUnit.TestAll.pInsert (1).executor": "Run",
@@ -128,7 +129,7 @@
       <recent name="com.fuck.Go.Weapon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll.DateInsert">
+  <component name="RunManager" selected="JUnit.TestAll.life">
     <configuration name="TestAll.DateInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bean_Instant" />
       <extension name="coverage">
@@ -145,22 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll.constructionBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bean_Instant" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
-      <option name="METHOD_NAME" value="constructionBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestAll.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bean_Instant" />
       <extension name="coverage">
@@ -172,6 +157,22 @@
       <option name="PACKAGE_NAME" value="com.spring6.test" />
       <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
       <option name="METHOD_NAME" value="init" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.life" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bean_Instant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
+      <option name="METHOD_NAME" value="life" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAll.life" />
         <item itemvalue="JUnit.TestAll.DateInsert" />
         <item itemvalue="JUnit.TestAll.method4" />
         <item itemvalue="JUnit.TestAll.method3" />
         <item itemvalue="JUnit.TestAll.init" />
-        <item itemvalue="JUnit.TestAll.constructionBean" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +249,7 @@
       <workItem from="1749254832645" duration="6154000" />
       <workItem from="1749347146942" duration="4705000" />
       <workItem from="1749370451819" duration="4776000" />
-      <workItem from="1749473007517" duration="1652000" />
+      <workItem from="1749473007517" duration="3379000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -282,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749375090644</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2025-6-9-evening">
+      <option name="closed" value="true" />
+      <created>1749475281689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749475281689</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +314,8 @@
     <MESSAGE value="2025-6-6/2" />
     <MESSAGE value="2025-6-7" />
     <MESSAGE value="2025-6-8-evening" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-6-8-evening" />
+    <MESSAGE value="2025-6-9-evening" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-6-9-evening" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

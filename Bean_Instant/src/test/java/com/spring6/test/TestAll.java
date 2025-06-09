@@ -1,5 +1,6 @@
 package com.spring6.test;
 
+import com.fuck.Go.BeanLifeCircle.PersonLife;
 import com.fuck.Go.DateInsert.Student;
 import com.fuck.Go.Interface_Instantiation4.Person;
 import com.fuck.Go.Method1_SpringBean;
@@ -12,6 +13,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAll {
+
+    @Test
+    public void life(){
+     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("BeanLife.xml");
+        PersonLife personLife = applicationContext.getBean("personLife", PersonLife.class);
+        System.out.println("第四步 取值"+personLife);
+        ClassPathXmlApplicationContext context = (ClassPathXmlApplicationContext) applicationContext;
+        context.close();
+
+    }
 
     @Test
     public void DateInsert() {
