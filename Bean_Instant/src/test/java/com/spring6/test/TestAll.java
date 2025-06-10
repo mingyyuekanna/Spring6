@@ -2,6 +2,7 @@ package com.spring6.test;
 
 import com.fuck.Go.BeanLifeCircle.PersonLife;
 import com.fuck.Go.DateInsert.Student;
+import com.fuck.Go.HowToLetNewObjectIntoSpring.StudentTest;
 import com.fuck.Go.Interface_Instantiation4.Person;
 import com.fuck.Go.Method1_SpringBean;
 import com.fuck.Go.Method2_Star;
@@ -9,10 +10,29 @@ import com.fuck.Go.Method3.Gun;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAll {
+
+    @Test
+    public void testRegBean(){
+//        53 将自己new的对象纳入spring容器管理
+
+//        ->自己new 的对象
+        StudentTest studentTest = new StudentTest();
+        System.out.println(studentTest);
+
+//        半路交给spring容器管理
+        DefaultListableBeanFactory factory =new DefaultListableBeanFactory();
+        factory.registerSingleton("student",studentTest);
+
+//        获取
+        Object student = factory.getBean("student");
+        System.out.println(student);
+    }
 
     @Test
     public void life(){

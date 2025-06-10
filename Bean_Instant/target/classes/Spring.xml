@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="studentFactory" class="com.fuck.Go.DateInsert.StudentFactory">
+        <constructor-arg index="0" value="2003-06-09"/>
+    </bean>
+
+    <bean id="student" class="com.fuck.Go.DateInsert.Student">
+        <property name="brith" ref="studentFactory"/>
+    </bean>
+
+
+
+
+    <!--    <bean id="SpringBean" class="com.fuck.Go.Method1_SpringBean"/>-->
+
+<!--    <bean id="Star" class="com.fuck.Go.Method2_StarFactory" factory-method="get"/>-->
+
+<!--    先把工厂的给配置好 -->
+    <bean class="com.fuck.Go.Method3.GunFactory" id="gunFactory"/>
+
+<!--    工厂配置好后 class可以不写 其次写Factory-bean 指定是从哪个工厂类过来的
+        再用那个工厂的"get"方法来进行调用获取bean(factory-method)
+-->
+    <bean class="com.fuck.Go.Method3.Gun" id="gun" factory-bean="gunFactory" factory-method="get"/>
+
+<!--
+    思路:和方法3大致相同 只不过免去了Method-xx 的配置
+    首先还是一个普通的和一个工厂类 普通类负责构造器赋值 工厂类实现FactoryBean
+    然后再bean中配置 class是实现FactoryBean的工厂类
+    id是工厂反射出来的普通子类
+-->
+    <bean id="person" class="com.fuck.Go.Interface_Instantiation4.PersonFactory"/>
+
+
+</beans>

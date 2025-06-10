@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        默认singleton 单例
+        prototype是多例
+        其实也有其他的  比如
+        session... request 这是在web项目中存在的 导入springmvc就有了
+        request 一次请求一个bean
+        session 一次会话一个bean
+    -->
+    <bean id="springBean" class="spring6.four.scope.SpringBean" scope="singleton">
+    </bean>
+
+</beans>
