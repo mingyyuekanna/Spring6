@@ -7,6 +7,8 @@ import com.fuck.Go.Interface_Instantiation4.Person;
 import com.fuck.Go.Method1_SpringBean;
 import com.fuck.Go.Method2_Star;
 import com.fuck.Go.Method3.Gun;
+import com.fuck.Go.circleDep.Husband;
+import com.fuck.Go.circleDep.Wife;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.FactoryBean;
@@ -16,6 +18,17 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAll {
+
+    @Test
+    public void testCircleDependence(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("CircleDep.xml");
+        Husband husband = applicationContext.getBean("husband", Husband.class);
+        System.out.println(husband);
+
+        Wife wife = applicationContext.getBean("wife", Wife.class);
+        System.out.println(wife);
+
+    }
 
     @Test
     public void testRegBean(){

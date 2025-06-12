@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+    singleton + setter 模式下 循环依赖是没有任何问题的
+    singleton在整个容器当中是单例的 独一无二的对象
+-->
+
+<!--
+    Spring如何应对循环依赖??
+        ->再Spring容器加载时 实例化bean 只要其中一个bean实例化后马上进行曝光[不等属性赋值就曝光]
+        ->bean曝光后 再进行属性赋值(调用set方法)
+
+        核心解决方案:实例化对象 和 对象熟悉的赋值 分为两个阶段完成
+-->
+
+
+    <bean id="husband" class="com.fuck.Go.circleDep.Husband" scope="singleton">
+        <property name="name" value="Fuck"/>
+        <property name="wife" ref="wife"/>
+    </bean>
+
+    <bean id="wife" class="com.fuck.Go.circleDep.Wife" scope="singleton">
+        <property name="name" value="Jean"/>
+        <property name="husband" ref="husband"/>
+    </bean>
+</beans>
