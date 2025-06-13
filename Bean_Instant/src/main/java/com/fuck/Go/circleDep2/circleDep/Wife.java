@@ -1,4 +1,4 @@
-package com.fuck.Go.circleDep;
+package com.fuck.Go.circleDep2.circleDep;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,15 @@ import lombok.Setter;
 public class Wife {
     private String name;
     private Husband husband;
+
+    public Wife(String name, Husband husband) {
+        this.name = name;
+        this.husband = husband;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public Husband getHusband() {
         return husband;

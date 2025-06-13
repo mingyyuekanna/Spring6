@@ -10,14 +10,20 @@ import com.fuck.Go.Method3.Gun;
 import com.fuck.Go.circleDep.Husband;
 import com.fuck.Go.circleDep.Wife;
 import org.junit.Test;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAll {
+
+    @Test
+    public void testCircleDependence2(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("CircleDep2.xml");
+        Husband husband = applicationContext.getBean("hus", Husband.class);
+        System.out.println(husband);
+        Wife wife = applicationContext.getBean("w", Wife.class);
+        System.out.println(wife);
+    }
 
     @Test
     public void testCircleDependence(){

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hus" scope="singleton" class="com.fuck.Go.circleDep2.circleDep.Husband">
+
+<!--
+    构造方法进行循环依赖注入一定会出错 不同于singleton+setter
+-->
+        <constructor-arg index="0" value="张三"/>
+        <constructor-arg index="1" ref="w"/>
+    </bean>
+
+    <bean id="w" scope="singleton" class="com.fuck.Go.circleDep2.circleDep.Wife">
+        <constructor-arg index="0" value="李思"></constructor-arg>
+        <constructor-arg index="1" ref="hus"></constructor-arg>
+    </bean>
+</beans>

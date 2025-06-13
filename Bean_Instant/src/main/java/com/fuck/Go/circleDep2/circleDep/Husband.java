@@ -1,4 +1,4 @@
-package com.fuck.Go.circleDep;
+package com.fuck.Go.circleDep2.circleDep;
 
 import lombok.Getter;
 import lombok.Setter;

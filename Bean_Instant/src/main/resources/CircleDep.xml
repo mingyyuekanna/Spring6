@@ -16,12 +16,17 @@
 -->
 
 
+<!--
+   在prototype+setter模式下的循环依赖存在问题会出现异常!
+   会出现BeanCurrentlyCreationException ->bean正在创建中处于异常
+   值得一提的是: 只有两个scope都是prototype才会出现异常 如果有一个是singleton就没事
+-->
     <bean id="husband" class="com.fuck.Go.circleDep.Husband" scope="singleton">
         <property name="name" value="Fuck"/>
         <property name="wife" ref="wife"/>
     </bean>
 
-    <bean id="wife" class="com.fuck.Go.circleDep.Wife" scope="singleton">
+    <bean id="wife" class="com.fuck.Go.circleDep.Wife" scope="prototype">
         <property name="name" value="Jean"/>
         <property name="husband" ref="husband"/>
     </bean>

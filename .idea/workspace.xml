@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-10-goZen">
-      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Husband.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Wife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/CircleDep.xml" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="2025-6-12 ev1">
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep2/circleDep/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep2/circleDep/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/reflect/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/reflect/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/reflect/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/reflect/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/CircleDep2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Husband.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Husband.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/main/java/com/fuck/Go/circleDep/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bean_Instant/src/main/resources/CircleDep.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/main/resources/CircleDep.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bean_Instant/src/test/java/com/spring6/test/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/src/test/java/com/spring6/test/TestAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bean_Instant/target/test-classes/com/spring6/test/TestAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bean_Instant/target/test-classes/com/spring6/test/TestAll.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +70,9 @@
     "Application.BankApp.executor": "Run",
     "Application.GradeSystemApp.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
     "Application.TestAll.executor": "Run",
     "Application.com.fuck.Go.Main.executor": "Run",
     "JUnit.BankApp.executor": "Run",
@@ -96,6 +107,7 @@
     "JUnit.TestAll.special.executor": "Coverage",
     "JUnit.TestAll.ss.executor": "Run",
     "JUnit.TestAll.testCircleDependence.executor": "Run",
+    "JUnit.TestAll.testCircleDependence2.executor": "Run",
     "JUnit.TestAll.testRegBean.executor": "Run",
     "JUnit.TestAll.wireByType.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,7 +116,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "E:/SpringFamily/Spring6/src/main/java/com/openai/Test",
-    "last_opened_file_path": "E:/SpringFamily/Spring6/src/lib",
+    "last_opened_file_path": "E:/SpringFamily/Spring6/Bean_Instant/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,6 +131,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringFamily\Spring6\Bean_Instant\src\main\resources" />
+      <recent name="E:\SpringFamily\Spring6\Bean_Instant\src\main\java\com\fuck\Go\circleDep2" />
       <recent name="E:\SpringFamily\Spring6\src\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -132,51 +146,42 @@
       <recent name="com.fuck.Go.Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll.testCircleDependence">
-    <configuration name="TestAll.DateInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.reflect.Person" />
       <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring6.test.*" />
+          <option name="PATTERN" value="com.fuck.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
-      <option name="METHOD_NAME" value="DateInsert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll.life" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.reflect.Test" />
       <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring6.test.*" />
+          <option name="PATTERN" value="com.fuck.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
-      <option name="METHOD_NAME" value="life" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll.method4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.reflect.Test2" />
       <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring6.test.*" />
+          <option name="PATTERN" value="com.fuck.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
-      <option name="METHOD_NAME" value="method4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +202,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll.testRegBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAll.testCircleDependence2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bean_Instant" />
       <extension name="coverage">
         <pattern>
@@ -207,7 +212,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spring6.test" />
       <option name="MAIN_CLASS_NAME" value="com.spring6.test.TestAll" />
-      <option name="METHOD_NAME" value="testRegBean" />
+      <option name="METHOD_NAME" value="testCircleDependence2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.TestAll.testCircleDependence2" />
         <item itemvalue="JUnit.TestAll.testCircleDependence" />
-        <item itemvalue="JUnit.TestAll.testRegBean" />
-        <item itemvalue="JUnit.TestAll.method4" />
-        <item itemvalue="JUnit.TestAll.life" />
-        <item itemvalue="JUnit.TestAll.DateInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +262,8 @@
       <workItem from="1749477055064" duration="3000" />
       <workItem from="1749526570444" duration="3313000" />
       <workItem from="1749730307826" duration="1355000" />
+      <workItem from="1749731684958" duration="187000" />
+      <workItem from="1749813709040" duration="5646000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -314,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749531035147</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2025-6-12 ev1">
+      <option name="closed" value="true" />
+      <created>1749731846628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749731846628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +354,8 @@
     <MESSAGE value="2025-6-8-evening" />
     <MESSAGE value="2025-6-9-evening" />
     <MESSAGE value="2025-6-10-goZen" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-6-10-goZen" />
+    <MESSAGE value="2025-6-12 ev1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-6-12 ev1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
