@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Factory_Method" />
         <module name="simple-factory" />
         <module name="Bean_Instant" />
+        <module name="IoC" />
+        <module name="Factory_Method" />
       </profile>
     </annotationProcessing>
   </component>
