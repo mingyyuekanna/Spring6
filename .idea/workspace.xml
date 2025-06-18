@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/14 2025 22:29">
-      <change afterPath="$PROJECT_DIR$/IoC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/Dao2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/bean/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/bean/Vip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/15 2025 15:35">
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/dao3/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/dao3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/impl/ImpByOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/impl/ImplByMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/WithoutXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/imp/OrderDaoImpByMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/imp/OrderDaoImpByOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +32,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -86,6 +93,11 @@
     "JUnit.ExerciseTest.test3.executor": "Run",
     "JUnit.GradeSystemApp.testBook.executor": "Run",
     "JUnit.IoC_An.test2.executor": "Run",
+    "JUnit.IoC_An.test3.executor": "Run",
+    "JUnit.IoC_An.test3_variant.executor": "Run",
+    "JUnit.IoC_An.test4.executor": "Run",
+    "JUnit.IoC_An.test5.executor": "Run",
+    "JUnit.IoC_An.withoutXml.executor": "Run",
     "JUnit.Main.test.executor": "Run",
     "JUnit.Test.Test.executor": "Run",
     "JUnit.Test.inject.executor": "Run",
@@ -123,7 +135,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "E:/SpringFamily/Spring6/src/main/java/com/openai/Test",
-    "last_opened_file_path": "E:/SpringFamily/Spring6/Bean_Instant/src/main/resources",
+    "last_opened_file_path": "D:/BaiduNetdiskDownload/ide-eval-resetter-2.1.14-d2fedb86.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -146,54 +158,15 @@
       <recent name="E:\SpringFamily\Spring6\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.fuck.damn.dao.imp" />
       <recent name="com.fuck.Go.bean" />
       <recent name="com.fuck.annotation.bean" />
       <recent name="com.fuck.Go.circleDep" />
       <recent name="com.fuck.Go.DateInsert" />
-      <recent name="com.fuck.Go.Interface_Instantiation4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IoC_An.test2">
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fuck.reflect.Test3" />
-      <module name="Bean_Instant" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fuck.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.fuck.annotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fuck.annotation.Test" />
-      <module name="Bean_Instant" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fuck.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fuck.annotation.client.reflectTest" />
-      <module name="Bean_Instant" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fuck.annotation.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoC_An.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IoC_An.withoutXml">
+    <configuration name="IoC_An.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IoC" />
       <extension name="coverage">
         <pattern>
@@ -203,13 +176,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fuck.test" />
       <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoC_An.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IoC_An.test3_variant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IoC" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +192,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fuck.test" />
       <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test3_variant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IoC_An.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fuck.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IoC_An.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fuck.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IoC_An.withoutXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fuck.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
+      <option name="METHOD_NAME" value="withoutXml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IoC_An.test2" />
-        <item itemvalue="JUnit.IoC_An.test1" />
-        <item itemvalue="Application.com.fuck.annotation.Test" />
-        <item itemvalue="Application.reflectTest" />
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="JUnit.IoC_An.withoutXml" />
+        <item itemvalue="JUnit.IoC_An.test5" />
+        <item itemvalue="JUnit.IoC_An.test4" />
+        <item itemvalue="JUnit.IoC_An.test3_variant" />
+        <item itemvalue="JUnit.IoC_An.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +293,9 @@
       <workItem from="1749731684958" duration="187000" />
       <workItem from="1749813709040" duration="5714000" />
       <workItem from="1749903757626" duration="5941000" />
-      <workItem from="1749965625951" duration="3666000" />
+      <workItem from="1749965625951" duration="3735000" />
+      <workItem from="1750245499159" duration="1278000" />
+      <workItem from="1750246786871" duration="4986000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -354,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749911368232</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="6/15 2025 15:35">
+      <option name="closed" value="true" />
+      <created>1749969329207</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749969329207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +413,8 @@
     <MESSAGE value="2025-6-12 ev1" />
     <MESSAGE value="6/13 2025 22:37" />
     <MESSAGE value="6/14 2025 22:29" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/14 2025 22:29" />
+    <MESSAGE value="6/15 2025 15:35" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/15 2025 15:35" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
