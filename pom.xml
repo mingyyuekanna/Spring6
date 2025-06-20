@@ -13,6 +13,7 @@
         <module>Factory_Method</module>
         <module>Bean_Instant</module>
         <module>IoC</module>
+        <module>static-proxy</module>
     </modules>
 
     <dependencies>

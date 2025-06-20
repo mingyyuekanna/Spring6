@@ -10,6 +10,7 @@
         <module name="simple-factory" />
         <module name="Bean_Instant" />
         <module name="IoC" />
+        <module name="static-proxy" />
         <module name="Factory_Method" />
       </profile>
     </annotationProcessing>

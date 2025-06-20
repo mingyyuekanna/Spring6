@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/15 2025 15:35">
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/dao3/MyDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/fuck/Go/dao3/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/impl/ImpByOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Dao/impl/ImplByMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/Service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/jp/fuck/Fuck/WithoutXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/imp/OrderDaoImpByMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/dao/imp/OrderDaoImpByOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/org/fuck/damn/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring5.xml" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/18-2025 22:28pm">
+      <change afterPath="$PROJECT_DIR$/static-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImplSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/src/test/java/com/fuck/test/IoC_An.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +69,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BankApp.executor": "Run",
+    "Application.Client.executor": "Run",
     "Application.GradeSystemApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Person.executor": "Run",
@@ -144,7 +137,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -165,19 +158,16 @@
       <recent name="com.fuck.Go.DateInsert" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IoC_An.withoutXml">
-    <configuration name="IoC_An.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IoC" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Client.Client" />
+      <module name="static-proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="PATTERN" value="com.fuck.Go.Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fuck.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.IoC_An.withoutXml" />
         <item itemvalue="JUnit.IoC_An.test5" />
         <item itemvalue="JUnit.IoC_An.test4" />
         <item itemvalue="JUnit.IoC_An.test3_variant" />
-        <item itemvalue="JUnit.IoC_An.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +285,8 @@
       <workItem from="1749903757626" duration="5941000" />
       <workItem from="1749965625951" duration="3735000" />
       <workItem from="1750245499159" duration="1278000" />
-      <workItem from="1750246786871" duration="4986000" />
+      <workItem from="1750246786871" duration="6131000" />
+      <workItem from="1750392365455" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -385,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749969329207</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="6/18-2025 22:28pm">
+      <option name="closed" value="true" />
+      <created>1750253314902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750253314902</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +413,8 @@
     <MESSAGE value="6/13 2025 22:37" />
     <MESSAGE value="6/14 2025 22:29" />
     <MESSAGE value="6/15 2025 15:35" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/15 2025 15:35" />
+    <MESSAGE value="6/18-2025 22:28pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/18-2025 22:28pm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
