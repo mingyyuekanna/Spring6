@@ -10,8 +10,10 @@
         <module name="simple-factory" />
         <module name="Bean_Instant" />
         <module name="IoC" />
+        <module name="ShoppingProxy" />
         <module name="static-proxy" />
         <module name="Factory_Method" />
+        <module name="dynamic-proxy" />
       </profile>
     </annotationProcessing>
   </component>

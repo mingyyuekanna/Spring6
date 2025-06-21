@@ -4,16 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/18-2025 22:28pm">
-      <change afterPath="$PROJECT_DIR$/static-proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImplSub.java" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/20-2025 13:45pm">
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/PermissionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/LoggingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/TimeHandel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImplSubProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +38,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="spring-beans.schema" />
+        <option value="module-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -77,7 +91,10 @@
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
     "Application.TestAll.executor": "Run",
+    "Application.com.fuck.Go.Author.Client.executor": "Run",
     "Application.com.fuck.Go.Main.executor": "Run",
+    "Application.com.fuck.Go.Service.impl.Client.executor": "Run",
+    "Application.com.fuck.Go.proxy.client.Client.executor": "Run",
     "Application.com.fuck.annotation.Test.executor": "Run",
     "Application.reflectTest.executor": "Run",
     "JUnit.BankApp.executor": "Run",
@@ -128,7 +145,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "E:/SpringFamily/Spring6/src/main/java/com/openai/Test",
-    "last_opened_file_path": "D:/BaiduNetdiskDownload/ide-eval-resetter-2.1.14-d2fedb86.zip",
+    "last_opened_file_path": "C:/Users/AobaRingo/Downloads/ide-eval-resetter-2.1.6.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,12 +154,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringFamily\Spring6\dynamic-proxy\src\main\java\com\fuck\Go\proxy\service" />
       <recent name="E:\SpringFamily\Spring6\Bean_Instant\src\main\resources" />
       <recent name="E:\SpringFamily\Spring6\Bean_Instant\src\main\java\com\fuck\Go\circleDep2" />
       <recent name="E:\SpringFamily\Spring6\src\lib" />
@@ -158,7 +176,7 @@
       <recent name="com.fuck.Go.DateInsert" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.com.fuck.Go.Author.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Client.Client" />
       <module name="static-proxy" />
@@ -172,50 +190,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoC_An.test3_variant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IoC" />
+    <configuration name="com.fuck.Go.Author.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Author.Client" />
+      <module name="ShoppingProxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="PATTERN" value="com.fuck.Go.Author.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fuck.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test3_variant" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoC_An.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IoC" />
+    <configuration name="com.fuck.Go.Service.impl.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Service.impl.Client" />
+      <module name="ShoppingProxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="PATTERN" value="com.fuck.Go.Service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fuck.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoC_An.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IoC" />
+    <configuration name="com.fuck.Go.proxy.client.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.proxy.client.Client" />
+      <module name="dynamic-proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fuck.test.*" />
+          <option name="PATTERN" value="com.fuck.Go.proxy.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fuck.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.fuck.Go.Author.Client" />
+        <item itemvalue="Application.com.fuck.Go.Service.impl.Client" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.com.fuck.Go.proxy.client.Client" />
         <item itemvalue="JUnit.IoC_An.withoutXml" />
-        <item itemvalue="JUnit.IoC_An.test5" />
-        <item itemvalue="JUnit.IoC_An.test4" />
-        <item itemvalue="JUnit.IoC_An.test3_variant" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +295,14 @@
       <workItem from="1749965625951" duration="3735000" />
       <workItem from="1750245499159" duration="1278000" />
       <workItem from="1750246786871" duration="6131000" />
-      <workItem from="1750392365455" duration="1857000" />
+      <workItem from="1750392365455" duration="2072000" />
+      <workItem from="1750394902909" duration="115000" />
+      <workItem from="1750410804935" duration="3572000" />
+      <workItem from="1750506444710" duration="1404000" />
+      <workItem from="1750509825039" duration="336000" />
+      <workItem from="1750510188519" duration="61000" />
+      <workItem from="1750510274529" duration="204000" />
+      <workItem from="1750510589726" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -384,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750253314902</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="6/20-2025 13:45pm">
+      <option name="closed" value="true" />
+      <created>1750394744631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750394744631</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +438,8 @@
     <MESSAGE value="6/14 2025 22:29" />
     <MESSAGE value="6/15 2025 15:35" />
     <MESSAGE value="6/18-2025 22:28pm" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/18-2025 22:28pm" />
+    <MESSAGE value="6/20-2025 13:45pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/20-2025 13:45pm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

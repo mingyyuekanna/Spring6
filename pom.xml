@@ -14,6 +14,8 @@
         <module>Bean_Instant</module>
         <module>IoC</module>
         <module>static-proxy</module>
+        <module>dynamic-proxy</module>
+        <module>ShoppingProxy</module>
     </modules>
 
     <dependencies>

@@ -3,6 +3,7 @@ package com.fuck.Go.Client;
 import com.fuck.Go.Service.OrderService;
 import com.fuck.Go.Service.ServiceImpl;
 import com.fuck.Go.Service.ServiceImplSub;
+import com.fuck.Go.Service.ServiceImplSubProxy;
 
 public class Client {
     public static void main(String[] args) {
@@ -26,9 +27,19 @@ public class Client {
 
          */
 
-        OrderService service = new ServiceImplSub();
+   /*     OrderService service = new ServiceImplSub();
         service.modify();
         service.detail();
-        service.generate();
+        service.generate();*/
+
+        OrderService service = new ServiceImpl();
+        OrderService serviceProxy=new ServiceImplSubProxy(service);
+
+        serviceProxy.detail();
+        serviceProxy.generate();
+        serviceProxy.modify();
+        serviceProxy.getName();
+
+
     }
 }
