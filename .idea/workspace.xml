@@ -4,29 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/20-2025 13:45pm">
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/PermissionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Author/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/LoggingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingProxy/src/main/java/com/fuck/Go/Service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy/src/main/java/com/fuck/Go/proxy/service/TimeHandel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImplSubProxy.java" afterDir="false" />
+    <list default="true" id="4cc393bc-297c-441e-9cc0-ceeac9f833e1" name="Changes" comment="6/21 2025 23:09 pm">
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/main/java/com/fuck/Go/Service/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/main/java/com/fuck/Go/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/main/java/com/fuck/Go/Service/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/main/java/com/fuck/Go/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/main/resources/spring6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Aop/src/test/java/com/fuck/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springs1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory_Method/target/classes/com/fuck/Go/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Factory_Method/target/classes/com/fuck/Go/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory_Method/target/test-classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingProxy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/fuck/Go/Service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/target/classes/com/fuck/simple/factory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/target/classes/com/fuck/simple/factory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/target/classes/com/fuck/simple/factory/WeaponFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/target/classes/com/fuck/simple/factory/WeaponFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="spring-beans.schema" />
         <option value="module-info" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -79,85 +75,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BankApp.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.GradeSystemApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Person.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.Test3.executor": "Run",
-    "Application.TestAll.executor": "Run",
-    "Application.com.fuck.Go.Author.Client.executor": "Run",
-    "Application.com.fuck.Go.Main.executor": "Run",
-    "Application.com.fuck.Go.Service.impl.Client.executor": "Run",
-    "Application.com.fuck.Go.proxy.client.Client.executor": "Run",
-    "Application.com.fuck.annotation.Test.executor": "Run",
-    "Application.reflectTest.executor": "Run",
-    "JUnit.BankApp.executor": "Run",
-    "JUnit.BankApp.test.executor": "Run",
-    "JUnit.ExerciseTest.test1.executor": "Run",
-    "JUnit.ExerciseTest.test3.executor": "Run",
-    "JUnit.GradeSystemApp.testBook.executor": "Run",
-    "JUnit.IoC_An.test2.executor": "Run",
-    "JUnit.IoC_An.test3.executor": "Run",
-    "JUnit.IoC_An.test3_variant.executor": "Run",
-    "JUnit.IoC_An.test4.executor": "Run",
-    "JUnit.IoC_An.test5.executor": "Run",
-    "JUnit.IoC_An.withoutXml.executor": "Run",
-    "JUnit.Main.test.executor": "Run",
-    "JUnit.Test.Test.executor": "Run",
-    "JUnit.Test.inject.executor": "Run",
-    "JUnit.Test.test.executor": "Run",
-    "JUnit.Test.test1.executor": "Run",
-    "JUnit.TestAll.DateInsert.executor": "Run",
-    "JUnit.TestAll.NullTest.executor": "Run",
-    "JUnit.TestAll.Tes.executor": "Run",
-    "JUnit.TestAll.Test.executor": "Run",
-    "JUnit.TestAll.Test2.executor": "Run",
-    "JUnit.TestAll.autowire.executor": "Run",
-    "JUnit.TestAll.constructionBean.executor": "Run",
-    "JUnit.TestAll.executor": "Run",
-    "JUnit.TestAll.hrefOutSide.executor": "Run",
-    "JUnit.TestAll.init.executor": "Run",
-    "JUnit.TestAll.life.executor": "Run",
-    "JUnit.TestAll.method3.executor": "Run",
-    "JUnit.TestAll.method4.executor": "Run",
-    "JUnit.TestAll.pInsert (1).executor": "Run",
-    "JUnit.TestAll.pInsert.executor": "Run",
-    "JUnit.TestAll.p_inj (1).executor": "Run",
-    "JUnit.TestAll.p_inj.executor": "Run",
-    "JUnit.TestAll.p_insert.executor": "Run",
-    "JUnit.TestAll.reuse.executor": "Run",
-    "JUnit.TestAll.s.executor": "Run",
-    "JUnit.TestAll.special.executor": "Coverage",
-    "JUnit.TestAll.ss.executor": "Run",
-    "JUnit.TestAll.testCircleDependence.executor": "Run",
-    "JUnit.TestAll.testCircleDependence2.executor": "Run",
-    "JUnit.TestAll.testRegBean.executor": "Run",
-    "JUnit.TestAll.wireByType.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "E:/SpringFamily/Spring6/src/main/java/com/openai/Test",
-    "last_opened_file_path": "C:/Users/AobaRingo/Downloads/ide-eval-resetter-2.1.6.zip",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BankApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GradeSystemApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.fuck.Go.Author.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.fuck.Go.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.fuck.Go.Service.impl.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.fuck.Go.proxy.client.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.fuck.annotation.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reflectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankApp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankApp.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExerciseTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExerciseTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeSystemApp.testBook.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.test3_variant.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.test4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.test5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IoC_An.withoutXml.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Main.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.inject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.DateInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.NullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.Tes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.autowire.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.constructionBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.hrefOutSide.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.init.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.life.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.method3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.method4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.pInsert (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.pInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.p_inj (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.p_inj.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.p_insert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.reuse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.s.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.special.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.TestAll.ss.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.testCircleDependence.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.testCircleDependence2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.testRegBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAll.wireByType.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/SpringFamily/Spring6/src/main/java/com/openai/Test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AobaRingo/Downloads/ide-eval-resetter-2.1.6.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SpringFamily\Spring6\dynamic-proxy\src\main\java\com\fuck\Go\proxy\service" />
@@ -176,13 +172,26 @@
       <recent name="com.fuck.Go.DateInsert" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.fuck.Go.Author.Client">
+  <component name="RunManager" selected="JUnit.Test.test1">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Client.Client" />
       <module name="static-proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fuck.Go.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.Main" />
+      <module name="Spring6-Aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fuck.Go.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,21 +225,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.fuck.Go.proxy.client.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fuck.Go.proxy.client.Client" />
-      <module name="dynamic-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fuck.Go.proxy.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoC_An.withoutXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IoC" />
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Aop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fuck.test.*" />
@@ -238,8 +234,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.fuck.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fuck.test.IoC_An" />
-      <option name="METHOD_NAME" value="withoutXml" />
+      <option name="MAIN_CLASS_NAME" value="com.fuck.test.Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test1" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.fuck.Go.Author.Client" />
         <item itemvalue="Application.com.fuck.Go.Service.impl.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.fuck.Go.proxy.client.Client" />
-        <item itemvalue="JUnit.IoC_An.withoutXml" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +298,9 @@
       <workItem from="1750509825039" duration="336000" />
       <workItem from="1750510188519" duration="61000" />
       <workItem from="1750510274529" duration="204000" />
-      <workItem from="1750510589726" duration="4025000" />
+      <workItem from="1750510589726" duration="4387000" />
+      <workItem from="1750580857766" duration="6000" />
+      <workItem from="1751095633906" duration="7336000" />
     </task>
     <task id="LOCAL-00001" summary="2025-6-6">
       <option name="closed" value="true" />
@@ -408,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750394744631</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="6/21 2025 23:09 pm">
+      <option name="closed" value="true" />
+      <created>1750515010040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750515010040</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +445,8 @@
     <MESSAGE value="6/15 2025 15:35" />
     <MESSAGE value="6/18-2025 22:28pm" />
     <MESSAGE value="6/20-2025 13:45pm" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/20-2025 13:45pm" />
+    <MESSAGE value="6/21 2025 23:09 pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/21 2025 23:09 pm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,8 @@
         <module>static-proxy</module>
         <module>dynamic-proxy</module>
         <module>ShoppingProxy</module>
+        <module>AOP</module>
+        <module>Spring6-Aop</module>
     </modules>
 
     <dependencies>
@@ -56,6 +58,27 @@
             <artifactId>hamcrest-core</artifactId>
             <version>2.2</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.2.0</version>
         </dependency>
 
     </dependencies>

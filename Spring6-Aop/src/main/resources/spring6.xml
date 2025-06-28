@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 在这里添加您的bean定义和其他配置 -->
+    <context:component-scan base-package="com.fuck.Go"></context:component-scan>
+
+<!--
+    开启Aspect自动代理机制
+    Spring容器在扫描类的时候 查看类上是否有@Aspect注解 如果有就给这个类生成代理对象
+    expose-proxy="true" 表示强制使用CGLIB动态代理
+    expose-proxy="false" 默认值 表示接口使用JDK动态代理
+-->
+    <aop:aspectj-autoproxy expose-proxy="true"/>
+
+</beans>
